@@ -1,0 +1,112 @@
+/* Universal styles */
+
+body {
+  font-family: Helvetica;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+}
+
+
+/* Header */
+header {
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  background-color: black;
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+    }
+
+header a {
+    color: seashell;
+    }
+
+
+.logo img {
+  height: 50px;
+}
+
+.logo {
+    flex-grow: 1; /*it has to be on the div before the words*/
+}
+
+  header span {
+    text-decoration: underline;
+    margin-right: 20px;
+  }
+
+/* Our Mission */
+
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.text {
+  background-color: black;
+  width: 100%;
+/* I cant make the text go to the center */
+}
+
+  /* Tea of the month */
+/* .month h2 h4 {
+  display: flex;
+  background-color: white;
+} this isnt working */
+
+  /* Tiny teas */
+
+.tiny-teas {
+  display: flex;
+  width: 1000px;
+  font-weight: bold;
+}
+
+.top-row {
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+}
+
+.teatea > img {
+    height: 200px;
+    width: 300px;
+    /*margin: 10px;*/
+  }
+
+.teatea {
+  display: block;
+    }
+
+.teatea span {
+
+}
+
+  /* Locations */
+  .locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    background-position: center;
+  }
+
+  .address {
+    height: 300px;
+    width: 300px;
+    display: block;
+  }
+
+  /* Contact */
+
+  /* Footer */
